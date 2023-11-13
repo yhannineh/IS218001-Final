@@ -1,4 +1,4 @@
-# is218001-final
+# IS218001-Final
 
 # Class Sign-In Sheet
 
