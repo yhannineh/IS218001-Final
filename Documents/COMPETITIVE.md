@@ -6,4 +6,4 @@
 | Scaracity    | Get a free emergency pizza | "Limited time" deals | "UNLOCK DUAL 2XP" with a limited time offer |
 | Consistency  | Gives points back to apply to purchases | Loyalty membership program | Subscribe for access to exclusive offers, promotions, and NEW Crazy!Crazy! |
 | Authority    | BECOMES THE 'OFFICIAL PIZZA OF THE NCAA(R)' | Shaquille O'Neal endorsement | THE NEW OFFICIAL PIZZA SPONSOR OF THE NFL |
-| Liking       | Donations to St Jude Childrens Hospital Research | Papa Johns and Papa Johns Foundation are donating 10 million meals to those in need | Ilitch Charities is a non-profit foundation |
+| Liking       | Donations to St Jude Childrens Hospital Research | Papa Johns and Papa Johns Foundation are donating 10 million meals to those in need | Ilitch Charities is a non-profit foundation | 
