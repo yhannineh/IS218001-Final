@@ -12,7 +12,7 @@ Each student should put an 'X' under their name on the days they attend class.
 | Nov 14, 2023 (Tues) |  X      |  X      |
 | Nov 16, 2023 (Thurs)|  X      |  X      |
 | Nov 21, 2023 (Tues) |  X      |  X      |
-| Nov 23, 2023 (Thurs)|  X      |        | <!-- Skipped for Thanksgiving -->
+| Nov 23, 2023 (Thurs)|  X      |  X      | <!-- Skipped for Thanksgiving -->
 | Nov 28, 2023 (Tues) |        |        |
 | Nov 30, 2023 (Thurs)|        |        |
 
