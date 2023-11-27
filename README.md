@@ -10,4 +10,4 @@
 
 ### Figma Designs
 | [Figma Version 1](https://www.figma.com/file/F2H8CIQOK5apTFab5vQlnx/Untitled?type=design&node-id=1-2&mode=design&t=ojFMmyoXAQjRoRyp-0)
-| [Figma Version 2]()
+| [Figma Version 2]() |
