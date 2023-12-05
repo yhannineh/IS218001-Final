@@ -19,7 +19,7 @@ Each student should put an 'X' under their name on the days they attend class.
 ### December 2023
 | Date         |  Yaman  |  Malin  |
 |--------------|---------|---------|
-| Dec 5, 2023  (Tues) |        |        |
+| Dec 5, 2023  (Tues) |  X      |  X      |
 | Dec 7, 2023  (Thurs)|        |        |
 | Dec 12, 2023 (Tues) |        |        |
 
