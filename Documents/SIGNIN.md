@@ -20,7 +20,7 @@ Each student should put an 'X' under their name on the days they attend class.
 | Date         |  Yaman  |  Malin  |
 |--------------|---------|---------|
 | Dec 5, 2023  (Tues) |  X      |  X      |
-| Dec 7, 2023  (Thurs)|        |        |
+| Dec 7, 2023  (Thurs)|  X      |  X      |
 | Dec 12, 2023 (Tues) |        |        |
 
 *Instructions: Please place an 'X' in the cell under your name corresponding to the dates you attend class.*
