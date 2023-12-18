@@ -24,7 +24,15 @@ function Menu() {
                         <h2 className={styles.singlePrice}>14 / 16 / 18</h2>
                     </section>
                 </div>
-                
+                <div className={styles.oneItem}>
+                    <section className={styles.itemText}>
+                        <h1 className={styles.name}>MEAT LOVERS PIZZA</h1>
+                        <p className={styles.desc}>Tomato sauce, Mozzarella, Pepperoni, Sausage, Bacon, Ham, Beef</p>
+                    </section>
+                    <section className={styles.itemPrice}>
+                        <h2 className={styles.singlePrice}>14 / 16 / 18</h2>
+                    </section>
+            </div>
             </div>
       </div>
     );
