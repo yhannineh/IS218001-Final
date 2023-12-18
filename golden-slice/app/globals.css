@@ -13,3 +13,7 @@ html {
   --font-primary: 'Angkor', sans-serif;
   --font-secondary: 'Poppins', sans-serif;
 }
+main{
+  max-width: 1100px;
+  margin: 0 auto;
+}
