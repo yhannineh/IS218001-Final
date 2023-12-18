@@ -21,3 +21,37 @@ main{
   margin-top: 2rem;
   position: relative;
 }
+.hero_text_section {
+  width: 100%;
+  position: absolute;
+  margin: 1.5rem auto;
+  left: 50%;
+  transform: translateX(-50%); 
+}
+  
+
+.hero_text {
+  max-height: 6rem;
+  width: fit-content;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.40);
+  font-family: 'Angkor', serif;
+  color: #FFF;
+  text-align: center;
+  font-size: 400%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0rem 1rem;
+}
+.hero_convince {
+  width: fit-content;
+  margin: 0 auto 1rem auto;
+  background: rgba(0, 0, 0, 0.40);
+  color:white;
+  font-family: var(--font-secondary);
+  /* border: 2px solid red; */
+  text-align: center;
+  text-transform: uppercase;
+}
