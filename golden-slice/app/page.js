@@ -70,7 +70,6 @@ export default function Home() {
                 className="rate_image"
                 />
             </div>
-          
           </div>
 
           <div className="card3">
@@ -83,6 +82,15 @@ export default function Home() {
             />
             <h2 className="card_title">Jake Phillips</h2>
             <p className="card_text">“Sign up for Golden Slice’s newsletter and score a fantastic 30% off your first order - great pizzas at an even greater price!”</p>
+            <div className="rate_margin">
+              <Image 
+              src="/images/rate.webp"
+              alt="Rating"
+              width={200}
+              height={32}
+              className="rate_image2"
+              />
+            </div>
           </div>
         </div>
       </div>
