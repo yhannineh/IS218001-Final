@@ -116,10 +116,13 @@ export default function Home() {
               height={418}
               className="menu_image"
             />
-            
+        </section>
+      </div>
+      <div id="join" className="account_section">
+        <section className="account_image_section">
+          <i className="fa-regular fa-user" style={{color: "#000000",}}></i>
         </section>
         
       </div>
-
   </main>
 }
