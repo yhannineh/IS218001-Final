@@ -119,7 +119,16 @@ main{
   font-weight: 700;
   line-height: normal;
 }
-
+.card_text {
+  padding: 0 1.65rem 0 3rem;
+  color: white;
+  /*text-align: center;*/
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 .rate_image {
   margin: 2.2rem auto .5rem auto;
 }
