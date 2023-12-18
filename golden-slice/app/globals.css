@@ -88,7 +88,24 @@ main{
   padding: 0rem 0rem 0rem 5.4rem;
   /*margin-left: 1rem;*/
 }
-
+.menu_header, .account_header{
+  font-family: var(--font-primary);
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.menu_p, .account_p {
+  font-family: var(--font-secondary);
+  font-size: 1.5rem;
+}
+.menu_image_section{
+  width: 45%;
+  /* border: 2px solid green; */
+  padding: 2rem;
+}
+.menu_p {
+  margin-bottom: 2rem;
+  max-width: 365px;
+}
 
 
 
