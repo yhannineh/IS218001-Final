@@ -22,5 +22,10 @@ export default function Home() {
           />
         </section>
       </div>
+      <div className="test_section">
+        <div className="test_title_section">
+          <h1 className="test_title">OUR REVIEWS</h1>
+        </div>
+      </div>
   </main>
 }
