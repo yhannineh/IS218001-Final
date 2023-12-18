@@ -22,6 +22,9 @@ export default function Home() {
           />
         </section>
       </div>
+
+
+
       <div className="test_section">
         <div className="test_title_section">
           <h1 className="test_title">OUR REVIEWS</h1>
@@ -37,6 +40,15 @@ export default function Home() {
             />
             <h2 className="card_title">Mike Mayir</h2>
             <p className="card_text">“Golden Slice offers amazing value with their Tuesday 2-for-1 deal, combining delicious, authentic flavors with unbeatable prices!”</p>
+            <div className="rate_margin">
+              <Image 
+              src="/images/rate4.webp"
+              alt="Rating"
+              width={200}
+              height={32}
+              className="rate_image"
+              />
+            </div>
           </div>
 
           <div className="card2">
@@ -49,6 +61,15 @@ export default function Home() {
               />
             <h2 className="card_title">Samantha Collins</h2>
             <p className="card_text">“Golden Slice serves up a delightful experience with its crispy, flavorful crust and fresh toppings. A must-visit for pizza enthusiasts!”</p>
+            <div className="rate_margin">
+              <Image 
+                src="/images/rate.webp"
+                alt="Rating"
+                width={200}
+                height={32}
+                className="rate_image"
+                />
+            </div>
           </div>
 
           <div className="card3">
@@ -61,6 +82,15 @@ export default function Home() {
             />
             <h2 className="card_title">Jake Phillips</h2>
             <p className="card_text">“Sign up for Golden Slice’s newsletter and score a fantastic 30% off your first order - great pizzas at an even greater price!”</p>
+            <div className="rate_margin">
+              <Image 
+              src="/images/rate.webp"
+              alt="Rating"
+              width={200}
+              height={32}
+              className="rate_image2"
+              />
+            </div>
           </div>
         </div>
       </div>
