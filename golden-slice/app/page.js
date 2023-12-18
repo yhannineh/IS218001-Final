@@ -108,7 +108,15 @@ export default function Home() {
           </Link>
           </div>
         </section>
-          
+        <section className="menu_image_section">
+          <Image
+              src="/images/menu.webp"
+              alt="Sharing Pizza"
+              width={438}
+              height={418}
+              className="menu_image"
+            />
+        </section>
         
       </div>
 
