@@ -1,5 +1,5 @@
 # IS218001-Final
-| [Sign-in Sheet](Documents/SIGNIN.md) |
+[Sign-in Sheet](Documents/SIGNIN.md) 
 
 ### Final Business Analysis
 | [Competitive Analysis](Documents/COMPETITIVE.md)
