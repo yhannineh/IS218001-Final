@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Image from "next/image"
 import Link from "next/link";
 import {Button, ButtonGroup} from "@nextui-org/react";
 
@@ -94,6 +93,23 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="line"></div>
+      <div className="menu_section">
+        <section className="menu_text_section">
+          <h1 className="menu_header">Explore Our Menu</h1>
+          <p className="menu_p">Embark on a journey through our extensive menu of handcrafted pizzas, each slice a masterpiece of taste.</p>
+          <p className="menu_p">Check out our various options that we have to offer.</p>
+          <div className="menu_button">
+          <Link  href="/menu">
+            <Button className="menu_link" size="lg" radius="full">
+              MENU
+            </Button>
+          </Link>
+          </div>
+        </section>
+          
+        
       </div>
 
   </main>
