@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@400;700&display=swap');
+
+.footer{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    background-color: #343434;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+
+.all {
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*gap: 30px;*/
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    max-width: 1100px;
+}
+
+.bold {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.title {
+    font-family: Spectral SC, serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title p {
+    margin: 0;
+}
+
+.stay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fonts {
+    display: flex;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.stay i {
+    font-size: 48px;
+}
+
+.copySection {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.copy {
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: white;
+}
+@media (max-width: 550px) {
+    .footer {
+        padding-top: 1.6rem;
+    }
+    .all {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .title {
+        text-align: center;
+        font-family: Spectral SC, serif;
+        margin-bottom: 1rem;
+    }
+    .copy {
+        text-align: center;
+    }
+    .stay i {
+        font-size: 35px;
+    }
+    .fonts {
+        display: flex;
+        gap: 14px;
+        margin-top: 25px;
+    }
+}
