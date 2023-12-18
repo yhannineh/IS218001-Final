@@ -28,6 +28,13 @@ export default function Home() {
         </div>
         <div className="card_section">
           <div className="card1">
+            <Image 
+            src="/images/test1.webp"
+            alt="Review Image"
+            width={128}
+            height={136}
+            className="test_image"
+            />
             <h2 className="card_title">Mike Mayir</h2>
             <p className="card_text">“Golden Slice offers amazing value with their Tuesday 2-for-1 deal, combining delicious, authentic flavors with unbeatable prices!”</p>
           </div>
