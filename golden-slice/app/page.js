@@ -38,7 +38,15 @@ export default function Home() {
             <h2 className="card_title">Mike Mayir</h2>
             <p className="card_text">“Golden Slice offers amazing value with their Tuesday 2-for-1 deal, combining delicious, authentic flavors with unbeatable prices!”</p>
           </div>
+
           <div className="card2">
+            <Image 
+              src="/images/test2.webp"
+              alt="Review Image"
+              width={128}
+              height={136}
+              className="test_image"
+              />
             <h2 className="card_title">Samantha Collins</h2>
             <p className="card_text">“Golden Slice serves up a delightful experience with its crispy, flavorful crust and fresh toppings. A must-visit for pizza enthusiasts!”</p>
           </div>
