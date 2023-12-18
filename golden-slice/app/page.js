@@ -22,6 +22,9 @@ export default function Home() {
           />
         </section>
       </div>
+
+
+
       <div className="test_section">
         <div className="test_title_section">
           <h1 className="test_title">OUR REVIEWS</h1>
@@ -37,6 +40,15 @@ export default function Home() {
             />
             <h2 className="card_title">Mike Mayir</h2>
             <p className="card_text">“Golden Slice offers amazing value with their Tuesday 2-for-1 deal, combining delicious, authentic flavors with unbeatable prices!”</p>
+            <div className="rate_margin">
+              <Image 
+              src="/images/rate4.webp"
+              alt="Rating"
+              width={200}
+              height={32}
+              className="rate_image"
+              />
+          </div>
           </div>
 
           <div className="card2">
