@@ -24,3 +24,13 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.oneItem {
+    width: 100%;
+    /* border: 2px solid purple; */
+    display: inline-flex;
+    justify-content: flex-start;
+    margin-bottom: 5rem;
+}
+.itemPrice{
+    margin-left: auto;
+}
