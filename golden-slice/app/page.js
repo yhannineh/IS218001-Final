@@ -122,7 +122,11 @@ export default function Home() {
         <section className="account_image_section">
           <i className="fa-regular fa-user" style={{color: "#000000",}}></i>
         </section>
-        
+        <section className="account_text_section">
+          <h1 className="account_header">Join our Loyalty Program</h1>
+          <p className="account_p">Sign up for our Loyalty Program and turn every bite into rewards – because the best pizzas should always come with extra perks!</p>
+          
+        </section>
       </div>
   </main>
 }
