@@ -124,7 +124,26 @@ main{
   text-align: center;
   
 }
+.account_section {
+  width: 100%;
+  display: inline-flex;
+  /* border: 2px solid black; */
+  background: rgba(173, 173, 173, 0.25);
+  padding: 4.46rem 0 3.3rem 0;
+  /*margin-bottom: 1rem;*/
 
+}
+.account_image_section {
+  /* border: 2px solid orange; */
+  width: 28%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 1rem;
+}
+.account_section i{
+  font-size: 158px;
+}
 
 .test_title {
   margin: 3rem auto 2rem auto;
