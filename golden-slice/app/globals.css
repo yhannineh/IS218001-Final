@@ -75,3 +75,30 @@ main{
   padding: 1rem 3rem 1rem 3rem;
   text-align: center;
 }
+.test_title {
+  margin: 3rem auto 2rem auto;
+  text-align: center;
+  color: #000;
+  font-family: Angkor;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+.card_section {
+  display: flex;
+  justify-content: space-between;
+  /*margin-top: 1rem;*/
+}
+.card1, .card3 {
+  width: 21.48438rem;
+  height: 28.79144rem;
+  border-radius: 0.9375rem;
+  background: linear-gradient(90deg, #6B1F1F 0%, #AE6969 50.24%, #6B1F1F 98.42%);
+}
+.card2 {
+  width: 21.48438rem;
+  height: 28.79144rem;
+  border-radius: 0.9375rem;
+  background: linear-gradient(90deg, #343434 0%, rgba(52, 52, 52, 0.68) 50.24%, #343434 98.42%);
+}
