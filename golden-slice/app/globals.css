@@ -124,8 +124,50 @@ main{
   text-align: center;
   
 }
+.account_section {
+  width: 100%;
+  display: inline-flex;
+  /* border: 2px solid black; */
+  background: rgba(173, 173, 173, 0.25);
+  padding: 4.46rem 0 3.3rem 0;
+  /*margin-bottom: 1rem;*/
 
-
+}
+.account_image_section {
+  /* border: 2px solid orange; */
+  width: 28%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 1rem;
+}
+.account_section i{
+  font-size: 158px;
+}
+.account_p {
+  margin-bottom: 1rem;
+}
+.account_text_section {
+ width: 72%;
+ /* border: 2px solid blue; */
+ padding-right: 5rem;
+}
+.account_link {
+  width: fit-content;
+  display: flex;
+  margin-left: auto;
+  border-radius: 3.4375rem;
+  /* border: 2px solid blue; */
+  background: #343434;
+  font-family: var(--font-second);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+  padding: 0.65rem 4.45rem 0.65rem 4.45rem;
+  text-align: center;
+}
 .test_title {
   margin: 3rem auto 2rem auto;
   text-align: center;
