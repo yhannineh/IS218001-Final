@@ -2,3 +2,13 @@
     background-color: #F1F1F1;
     padding-top: 2rem;
 }
+.title {
+    color: #000;
+    font-family: Spectral SC;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* border: 2px solid blue; */
+    text-align: center;
+}
