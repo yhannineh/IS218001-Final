@@ -342,3 +342,99 @@ main{
     margin-top: 2rem;
   }
 }
+@media (max-width: 630px) {
+  .hero_text {
+    max-height: 3.75rem;
+    font-size: 275%;
+  }
+  .hero_convince {
+    font-size: 70%;
+    margin-bottom: .45rem;
+  }
+  .hero_link {
+    font-size: .5;
+    padding: .5rem 2rem .5rem 2rem;
+}
+
+}
+@media (max-width: 550px) {
+  .hero_text {
+    max-height: 3rem;
+    font-size: 225%;
+  }
+  .hero_convince {
+    font-size: 55%;
+    margin-bottom: .4rem;
+  }
+  .hero_link {
+    font-size: .25;
+    padding: .25rem 1.25rem .25rem 1.25rem;
+}
+  .hero_text_section {
+    margin: .75rem auto;
+  }
+}
+@media (max-width: 455px) {
+  .hero_text {
+    max-height: 3rem;
+    font-size: 190%;
+  }
+  .hero_convince {
+    font-size: 45%;
+    margin-bottom: .35rem;
+  }
+  .hero_link {
+    font-size: .2;
+    padding: .2rem 1.1rem .2rem 1.1rem;
+}
+  .hero_text_section {
+    margin: .6rem auto;
+  }
+  .test_title {
+    font-size: 2.5rem;
+  }
+  /* .rate_image {
+    margin: 1rem auto .5rem auto;
+  }
+  .rate_image2 {
+    margin: 1.5rem auto .5rem auto;
+  } */
+}
+@media (max-width: 395px) {
+  .hero_text {
+    max-height: 2.5rem;
+    font-size: 160%;
+  }
+  .hero_convince {
+    font-size: 35%;
+    margin-bottom: .35rem;
+  }
+  .hero_link {
+    font-size: .5rem;
+    padding: .2rem 1.1rem .37rem 1.1rem;
+}
+  .card1, .card2, .card3 {
+    height: fit-content
+  }
+}
+@media (max-width: 365px) {
+  .test_title {
+    font-size: 2rem;
+  }
+  
+}
+@media (max-width: 341px) {
+  .hero_text {
+    max-height: 2rem;
+    font-size: 140%;
+  }
+  .hero_convince {
+    font-size: 35%;
+    margin-bottom: .2em;
+  }
+  .hero_link {
+    font-size: .5rem;
+    padding: .2rem 1.1rem .37rem 1.1rem;
+}
+
+}
