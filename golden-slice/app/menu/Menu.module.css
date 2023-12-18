@@ -34,3 +34,11 @@
 .itemPrice{
     margin-left: auto;
 }
+.name {
+    color: #000;
+    font-family: Spectral;
+    font-size: 2.7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
