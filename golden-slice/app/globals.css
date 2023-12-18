@@ -13,3 +13,65 @@ html {
   --font-primary: 'Angkor', sans-serif;
   --font-secondary: 'Poppins', sans-serif;
 }
+main{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.hero_section {
+  margin-top: 2rem;
+  position: relative;
+}
+.hero_text_section {
+  width: 100%;
+  position: absolute;
+  margin: 1.5rem auto;
+  left: 50%;
+  transform: translateX(-50%); 
+}
+  
+
+.hero_text {
+  max-height: 6rem;
+  width: fit-content;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.40);
+  font-family: 'Angkor', serif;
+  color: #FFF;
+  text-align: center;
+  font-size: 400%;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0rem 1rem;
+}
+.hero_convince {
+  width: fit-content;
+  margin: 0 auto 1rem auto;
+  background: rgba(0, 0, 0, 0.40);
+  color:white;
+  font-family: var(--font-secondary);
+  /* border: 2px solid red; */
+  text-align: center;
+  text-transform: uppercase;
+}
+.hero_image_section {
+  display: flex;
+  width: 100%;
+}
+.hero_link {
+  width: fit-content;
+  display: flex;
+  margin: 0 auto 0rem auto;
+  border-radius: 3.4375rem;
+  border: 1px solid #FFF;
+  background: #343434;
+  font-family: var(--font-second);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+  padding: 1rem 3rem 1rem 3rem;
+  text-align: center;
+}
