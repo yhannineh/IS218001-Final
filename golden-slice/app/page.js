@@ -12,7 +12,15 @@ export default function Home() {
           <h2 className="hero_convince">Here&apos;s for 30% off your next order – join our exclusive rewards club now!</h2>
           <Link className="hero_link" href="/" onClick={handleShowPopup}>GET 30% OFF</Link>
         </section>
-        
+        <section className="hero_image_section">
+          <Image
+            src="/images/hero1.webp"
+            alt="Sharing Pizza"
+            width={20000000}
+            height={100}
+            className="hero_image"
+          />
+        </section>
       </div>
   </main>
 }
