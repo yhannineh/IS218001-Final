@@ -35,8 +35,9 @@ export default function Home() {
             <h2 className="card_title">Samantha Collins</h2>
             <p className="card_text">“Golden Slice serves up a delightful experience with its crispy, flavorful crust and fresh toppings. A must-visit for pizza enthusiasts!”</p>
           </div>
-          <div className="card1">
-
+          <div className="card3">
+            <h2 className="card_title">Jake Phillips</h2>
+            <p className="card_text">“Sign up for Golden Slice’s newsletter and score a fantastic 30% off your first order - great pizzas at an even greater price!”</p>
           </div>
         </div>
       </div>
