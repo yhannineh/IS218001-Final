@@ -90,3 +90,9 @@ main{
   justify-content: space-between;
   /*margin-top: 1rem;*/
 }
+.card1, .card3 {
+  width: 21.48438rem;
+  height: 28.79144rem;
+  border-radius: 0.9375rem;
+  background: linear-gradient(90deg, #6B1F1F 0%, #AE6969 50.24%, #6B1F1F 98.42%);
+}
