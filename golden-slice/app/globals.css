@@ -266,3 +266,79 @@ main{
 
   
 }
+@media (max-width: 925px) {
+  .menu_header, .account_header{
+    font-size: 2rem;
+  }
+  .menu_p, .account_p {
+    font-size: 1rem;
+  }
+  .account_section i{
+    font-size: 135px;
+  }
+
+}
+@media (max-width: 775px) {
+  .menu_header, .account_header{
+    font-size: 1.7rem;
+  }
+  .menu_p, .account_p {
+    font-size: .8rem;
+  }
+  .account_section i{
+    font-size: 110px;
+  }
+  .hero_text {
+    max-height: 5rem;
+    font-size: 325%;
+  }
+  .hero_convince {
+    font-size: 80%;
+    margin-bottom: .5rem;
+  }
+  .hero_link {
+    font-size: 1rem;
+}
+}
+@media (max-width: 684px) {
+  .account_section {
+    padding-top: 2rem;
+    text-align: center;
+  }
+  .account_image_section {
+    display: none;
+  }
+  .account_text_section {
+   width: 100%;
+   padding: 0 3rem;
+  }
+  .account_link {
+    margin:  0 auto;
+    font-size: 1rem;
+  }
+  .menu_section {
+    text-align: center;
+    margin: 2rem auto 0 auto;
+    padding-bottom: 1rem;
+    
+  }
+  .menu_text_section {
+    padding:0;
+    width: 100%;
+    /* border: 2px solid purple; */
+    margin: 0 auto 2rem auto;
+  }
+  .menu_p {
+    margin: 0 auto 0 auto;
+  }
+  .menu_image_section{
+    display: none;
+    width:0%;
+  }
+  .menu_link {
+    font-size: 1rem;
+  }
+  .menu_button {
+    margin-top: 2rem;
+  }
+}
