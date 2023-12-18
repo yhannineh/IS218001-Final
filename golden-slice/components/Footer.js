@@ -12,7 +12,9 @@ const Footer = () => {
                 <div className={styles.stay}>
                     <p className={styles.bold}>Stay Connected</p>
                     <div className={styles.fonts}>
-                        
+                        <Link href="https://www.facebook.com/" target="_blank" ><i className="fa-brands fa-facebook"></i></Link>
+                        <Link href="https://www.instagram.com/" target="_blank" ><i className="fa-brands fa-instagram"></i></Link>
+                        <Link href="https://www.tiktok.com/en/" target="_blank" ><i className="fa-brands fa-tiktok"></i></Link>
                     </div>
                 </div>
                 
