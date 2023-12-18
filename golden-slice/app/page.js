@@ -116,6 +116,7 @@ export default function Home() {
               height={418}
               className="menu_image"
             />
+            
         </section>
         
       </div>
