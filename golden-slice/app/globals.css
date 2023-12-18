@@ -59,3 +59,19 @@ main{
   display: flex;
   width: 100%;
 }
+.hero_link {
+  width: fit-content;
+  display: flex;
+  margin: 0 auto 0rem auto;
+  border-radius: 3.4375rem;
+  border: 1px solid #FFF;
+  background: #343434;
+  font-family: var(--font-second);
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+  padding: 1rem 3rem 1rem 3rem;
+  text-align: center;
+}
