@@ -12,3 +12,15 @@
     /* border: 2px solid blue; */
     text-align: center;
 }
+.line {
+    width:90%;
+    margin: 0 auto;
+    border-top: 3px solid black;
+}
+.items {
+    padding: 6rem 3rem;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
