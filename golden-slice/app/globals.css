@@ -106,7 +106,24 @@ main{
   margin-bottom: 2rem;
   max-width: 365px;
 }
-
+.menu_button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.menu_link {
+  border-radius: 3.4375rem;
+  /* border: 2px solid blue; */
+  background: #6B1F1F;
+  font-family: var(--font-second);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #FFF;
+  padding: 0.65rem 5.75rem 0.65rem 5.75rem;
+  text-align: center;
+  
+}
 
 
 .test_title {
