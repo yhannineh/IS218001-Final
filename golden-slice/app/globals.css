@@ -85,3 +85,8 @@ main{
   font-weight: 200;
   line-height: normal;
 }
+.card_section {
+  display: flex;
+  justify-content: space-between;
+  /*margin-top: 1rem;*/
+}
