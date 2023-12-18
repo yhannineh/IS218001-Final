@@ -1,12 +1,22 @@
+"use client";
 import Image from 'next/image';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Link from "next/link";
 import {Button, ButtonGroup} from "@nextui-org/react";
+import React, { useState, useEffect } from 'react';
+import Popup from '@/components/Popup';
 
 
 export default function Home() {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleShowPopup = () => {
+    setShowPopup(true); // Manually show the popup via button
+  };
+
   return (
     <main>
+      {showPopup && <Popup isOpen={showPopup} onClose={() => setShowPopup(false)} />}
       <div className="hero_section flex">
           <section className="hero_text_section">
             <h1 className="hero_text">ENJOY TOGETHER!</h1>
