@@ -1,114 +1,146 @@
-import Image from 'next/image'
+"use client";
+import Image from 'next/image';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Link from "next/link";
+import {Button, ButtonGroup} from "@nextui-org/react";
+import React, { useState, useEffect } from 'react';
+import Popup from '@/components/Popup';
+
 
 export default function Home() {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const handleShowPopup = () => {
+    setShowPopup(true); // Manually show the popup via button
+  };
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
+    <main>
+      {showPopup && <Popup isOpen={showPopup} onClose={() => setShowPopup(false)} />}
+      <div className="hero_section flex">
+          <section className="hero_text_section">
+            <h1 className="hero_text">ENJOY TOGETHER!</h1>
+            <h2 className="hero_convince">Here&apos;s for 30% off your next order – join our exclusive rewards club now!</h2>
+            <Link className="hero_link" href="/" onClick={handleShowPopup}>GET 30% OFF</Link>
+          </section>
+          <section className="hero_image_section">
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
+              src="/images/hero1.webp"
+              alt="Sharing Pizza"
+              width={20000000}
+              height={100}
+              className="hero_image"
             />
-          </a>
+          </section>
         </div>
-      </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+        <div className="test_section">
+          <div className="test_title_section">
+            <h1 className="test_title">OUR REVIEWS</h1>
+          </div>
+          <div className="card_section">
+            <div className="card1">
+              <Image 
+              src="/images/test1.webp"
+              alt="Review Image"
+              width={128}
+              height={136}
+              className="test_image"
+              />
+              <h2 className="card_title">Mike Mayir</h2>
+              <p className="card_text">“Golden Slice offers amazing value with their Tuesday 2-for-1 deal, combining delicious, authentic flavors with unbeatable prices!”</p>
+              <div className="rate_margin">
+                <Image 
+                src="/images/rate4.webp"
+                alt="Rating"
+                width={200}
+                height={32}
+                className="rate_image"
+                />
+              </div>
+            </div>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+            <div className="card2">
+              <Image 
+                src="/images/test2.webp"
+                alt="Review Image"
+                width={128}
+                height={136}
+                className="test_image"
+                />
+              <h2 className="card_title">Samantha Collins</h2>
+              <p className="card_text">“Golden Slice serves up a delightful experience with its crispy, flavorful crust and fresh toppings. A must-visit for pizza enthusiasts!”</p>
+              <div className="rate_margin">
+                <Image 
+                  src="/images/rate.webp"
+                  alt="Rating"
+                  width={200}
+                  height={32}
+                  className="rate_image"
+                  />
+              </div>
+            </div>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+            <div className="card3">
+              <Image 
+                src="/images/test3.webp"
+                alt="Review Image"
+                width={128}
+                height={136}
+                className="test_image"
+              />
+              <h2 className="card_title">Jake Phillips</h2>
+              <p className="card_text">“Sign up for Golden Slice’s newsletter and score a fantastic 30% off your first order - great pizzas at an even greater price!”</p>
+              <div className="rate_margin">
+                <Image 
+                src="/images/rate.webp"
+                alt="Rating"
+                width={200}
+                height={32}
+                className="rate_image2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="line"></div>
+        <div className="menu_section">
+          <section className="menu_text_section">
+            <h1 className="menu_header">Explore Our Menu</h1>
+            <p className="menu_p">Embark on a journey through our extensive menu of handcrafted pizzas, each slice a masterpiece of taste.</p>
+            <p className="menu_p">Check out our various options that we have to offer.</p>
+            <div className="menu_button">
+            <Link  href="/menu">
+              <Button className="menu_link" size="lg" radius="full">
+                MENU
+              </Button>
+            </Link>
+            </div>
+          </section>
+          <section className="menu_image_section">
+            <Image
+                src="/images/menu.webp"
+                alt="Sharing Pizza"
+                width={438}
+                height={418}
+                className="menu_image"
+              />
+          </section>
+        </div>
+        <div id="join" className="account_section">
+          <section className="account_image_section">
+            <i className="fa-regular fa-user" style={{color: "#000000",}}></i>
+          </section>
+          <section className="account_text_section">
+            <h1 className="account_header">Join our Loyalty Program</h1>
+            <p className="account_p">Sign up for our Loyalty Program and turn every bite into rewards – because the best pizzas should always come with extra perks!</p>
+            <Button className="account_link" size="lg" radius="full" onClick={handleShowPopup}>
+            Join Now
+              </Button>
+          </section>
+        </div>
     </main>
   )
 }

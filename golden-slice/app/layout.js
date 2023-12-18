@@ -4,6 +4,8 @@ import '@fontsource/angkor';
 import '@fontsource/poppins';
 import Navbar from '@/components/Nav'
 import Footer from '@/components/Footer'
+import GoogleAnalytics from '@/components/GoogleAnalytics';
+import CookieBanner from '@/components/Cookiebanner';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +17,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <GoogleAnalytics GA_MEASUREMENT_ID='G-4T0Q15R0MQ'/>
+      <body>
+        <Navbar />
+        <main>
+          {children}
+          <CookieBanner/>
+        </main>
+        <Footer />
+      </body>
     </html>
   )
 }
