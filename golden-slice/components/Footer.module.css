@@ -76,6 +76,8 @@
     line-height: normal;
     color: white;
 }
+
+
 @media (max-width: 550px) {
     .footer {
         padding-top: 1.6rem;
