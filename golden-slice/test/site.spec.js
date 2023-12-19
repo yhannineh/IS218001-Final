@@ -80,3 +80,23 @@ test('Navbar logo is present', async ({ page }) => {
     await button.click();
     await expect(page).toHaveURL('https://is-218001-final.vercel.app/menu');
   });
+
+  test('Call to Action in Join Section', async ({ page }) => {
+    // Navigate to your application
+    await page.goto('https://is-218001-final.vercel.app/');
+  
+    // Checks if the Popup is present and clicks the Maybe Later button
+    const form = await page.locator('main');
+    const laterLink = form.locator('button', { hasText: 'Maybe Later' });
+
+  
+    // Locate the button
+    const button = page.locator('button', { hasText: 'Join Now' });
+  
+    // Ensure the button is present and visible
+    await expect(button).toBeVisible();
+  
+    // Click the button and check the navigation
+    await button.click();
+    await expect(laterLink).toBeVisible();
+  });
