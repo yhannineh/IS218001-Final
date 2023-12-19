@@ -45,3 +45,22 @@ test('Navbar logo is present', async ({ page }) => {
   
   
   });
+
+  test('Call to Action in Hero Section', async ({ page }) => {
+    // Navigate to your application
+    await page.goto('https://218-final-test.vercel.app/');
+  
+    // Checks if the Popup is present and clicks the Maybe Later button
+    const form = await page.locator('main');
+    const laterLink = form.locator('button', { hasText: 'Maybe Later' });
+
+    // Locate the button
+    const button = page.locator('a', { hasText: 'GET 30% OFF' });
+  
+    // Ensure the button is present and visible
+    await expect(button).toBeVisible();
+  
+    // Click the button amd check the navigation
+    await button.click();
+    await expect(laterLink).toBeVisible();
+  });
