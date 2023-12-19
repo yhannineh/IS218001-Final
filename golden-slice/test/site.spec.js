@@ -48,7 +48,7 @@ test('Navbar logo is present', async ({ page }) => {
 
   test('Call to Action in Hero Section', async ({ page }) => {
     // Navigate to your application
-    await page.goto('https://218-final-test.vercel.app/');
+    await page.goto('https://is-218001-final.vercel.app/');
   
     // Checks if the Popup is present and clicks the Maybe Later button
     const form = await page.locator('main');
@@ -63,4 +63,20 @@ test('Navbar logo is present', async ({ page }) => {
     // Click the button amd check the navigation
     await button.click();
     await expect(laterLink).toBeVisible();
+  });
+
+  test('Call to Action in Menu Section', async ({ page }) => {
+    // Navigate to your application
+    await page.goto('https://is-218001-final.vercel.app/');
+
+  
+    // Locate the button
+    const button = page.locator('button', { hasText: 'MENU' });
+  
+    // Ensure the button is present and visible
+    await expect(button).toBeVisible();
+  
+    // Click the button amd check the navigation
+    await button.click();
+    await expect(page).toHaveURL('https://is-218001-final.vercel.app/menu');
   });
