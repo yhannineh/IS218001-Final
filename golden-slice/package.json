@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "playwright test"
   },
   "dependencies": {
     "@fontsource/angkor": "^5.0.18",
@@ -18,10 +19,12 @@
     "@mailchimp/mailchimp_marketing": "^3.0.80",
     "@nextui-org/react": "^2.2.9",
     "next": "14.0.4",
+    "playwright": "^1.40.1",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@playwright/test": "^1.40.1",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
