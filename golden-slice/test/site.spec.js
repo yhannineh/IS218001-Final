@@ -117,3 +117,29 @@ test('Navbar logo is present', async ({ page }) => {
     // Check if there are exactly six items
     expect(itemCount).toBe(6);
   });
+
+  test('Check for Font Awesome icons in the footer', async ({ page }) => {
+    // Navigate to your application
+    await page.goto('https://is-218001-final.vercel.app/');
+   
+   // Locate the footer
+   const footer = page.locator('.Footer_footer__pQtti');
+ 
+   // Ensure the footer is present and visible
+   await expect(footer).toBeVisible();
+ 
+   // Check for a specific Font Awesome icon in the footer
+   const faIcon1 = footer.locator('a .fa-facebook');
+   // Verify that the Font Awesome icon is present
+   await expect(faIcon1).toBeVisible();
+   
+   // Check for a specific Font Awesome icon in the footer
+   const faIcon2 = footer.locator('a .fa-instagram');
+   // Verify that the Font Awesome icon is present
+   await expect(faIcon2).toBeVisible();
+   
+   // Check for a specific Font Awesome icon in the footer
+   const faIcon3 = footer.locator('a .fa-tiktok');
+   // Verify that the Font Awesome icon is present
+   await expect(faIcon3).toBeVisible();
+ });
