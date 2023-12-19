@@ -100,3 +100,20 @@ test('Navbar logo is present', async ({ page }) => {
     await button.click();
     await expect(laterLink).toBeVisible();
   });
+
+  test('Page contains exactly six items', async ({ page }) => {
+    // Navigate to your application
+    await page.goto('https://is-218001-final.vercel.app/');
+  
+    // Locate the button
+    await page.goto('https://is-218001-final.vercel.app/menu');
+  
+    // Locate the items
+    const items = page.locator('.Menu_oneItem__ml9Bo'); 
+  
+    // Count the number of items
+    const itemCount = await items.count();
+  
+    // Check if there are exactly six items
+    expect(itemCount).toBe(6);
+  });
