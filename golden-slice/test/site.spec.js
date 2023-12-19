@@ -24,3 +24,24 @@ test('Navbar exists and navigates correctly', async ({ page }) => {
   await joinLink.click();
   await expect(page).toHaveURL('https://is-218001-final.vercel.app/#join'); // Adjust the URL as needed
 });
+
+test('Navbar logo is present', async ({ page }) => {
+    // Navigate to your application
+    await page.goto('https://is-218001-final.vercel.app/');
+  
+    // Locate the navbar
+    const navbar = page.locator('nav'); // Adjust the selector as needed
+    await expect(navbar).toBeVisible();
+  
+    // Locate the logo image within the navbar
+    const logo = navbar.locator('img[alt="logo"]'); 
+  
+    // Check if the logo is present and visible
+    await expect(logo).toBeVisible();
+  
+    // Click on the logo and check the navigation
+    await logo.click();
+    await expect(page).toHaveURL('https://is-218001-final.vercel.app/');
+  
+  
+  });
