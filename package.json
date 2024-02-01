@@ -1,0 +1,16 @@
+{
+  "name": "is218001-final",
+  "version": "1.0.0",
+  "description": "[Sign-in Sheet](Documents/SIGNIN.md)",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.5"
+  }
+}
