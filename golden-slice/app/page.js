@@ -1,5 +1,4 @@
 "use client";
-require('dotenv').config();
 import Image from 'next/image';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Link from "next/link";
