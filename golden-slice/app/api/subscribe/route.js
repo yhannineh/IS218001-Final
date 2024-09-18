@@ -4,7 +4,7 @@ mailchimp.setConfig({
   apiKey: process.env.MAILCHIMP_APIKEY,
   server: process.env.MAILCHIMP_SERVER,
 });
-console.log('MAILCHIMP_APIKEY', MAILCHIMP_APIKEY);
+console.log('MAILCHIMP_APIKEY', process.env.MAILCHIMP_APIKEY);
 
 export async function POST(request) {
     const {email} = await request.json();
