@@ -1,8 +1,8 @@
 import mailchimp from '@mailchimp/mailchimp_marketing';
 
 mailchimp.setConfig({
-  apiKey: process.env.NEXT_PUBLIC_MAILCHIMP_APIKEY,
-  server: process.env.NEXT_PUBLIC_MAILCHIMP_SERVER,
+  apiKey: process.env.MAILCHIMP_APIKEY,
+  server: process.env.MAILCHIMP_SERVER,
 });
 
 export async function POST(request) {
