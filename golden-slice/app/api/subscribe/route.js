@@ -1,5 +1,5 @@
 import mailchimp from '@mailchimp/mailchimp_marketing';
-const privateKey = process.env.MAILCHIMP_APIKEY
+const privateKey = process.env.MAILCHIMP_API_KEY
 mailchimp.setConfig({
   apiKey: privateKey,
   server: 'us21',
